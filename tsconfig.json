@@ -19,7 +19,7 @@
     "strictNullChecks": true,
     "noUnusedParameters": false,
     "baseUrl": ".",
-    "rootDir": "src",
+//    "rootDir": "src",
     "allowJs": true
   },
   "exclude": [
