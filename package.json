@@ -1,0 +1,33 @@
+{
+    "name": "RN_PushNotification",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "tsc -w & react-native start",
+        "test": "jest",
+        "rm-node": "rm -rf node_modules && yarn install"
+    },
+    "dependencies": {
+        "react": "16.8.3",
+        "react-native": "0.59.1",
+        "react-native-firebase": "^5.2.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.0",
+        "@babel/runtime": "^7.4.2",
+        "@types/jest": "^24.0.11",
+        "@types/react": "^16.8.8",
+        "@types/react-native": "^0.57.41",
+        "@types/react-test-renderer": "^16.8.1",
+        "babel-jest": "^24.5.0",
+        "jest": "^24.5.0",
+        "metro-react-native-babel-preset": "^0.53.1",
+        "react-native-typescript-transformer": "^1.2.12",
+        "react-test-renderer": "16.8.3",
+        "tslint": "^5.14.0",
+        "typescript": "^3.3.4000"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
+}
